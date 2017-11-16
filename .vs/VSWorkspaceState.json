@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\apps",
+    "\\apps\\login_registration",
+    "\\apps\\login_registration\\templates",
+    "\\apps\\login_registration\\templates\\login_registration",
+    "\\LoginAndRegistration"
+  ],
+  "SelectedNode": "\\apps\\login_registration\\models.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Success</title>
+</head>
+<body>
+    <h1>Success! Welcome, {{sessionUser.first_name}}!</h1>
+    {% for person in users %}
+    {{person.first_name}}
+    {% endfor %}
+    <p style="color: green">{{request.session.login}}</p>
+    <a href="/logOut">Log Out</a>
+</body>
+</html>
